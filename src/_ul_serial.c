@@ -707,7 +707,7 @@ static int _serial_drainTX(lua_State *L) {
 
 
 
-static const luaL_reg _ul_seriallib[] = {
+static const luaL_Reg _ul_seriallib[] = {
     {"open",       _serial_open},
     {"close",      _serial_close},
     {"getBaud",    _serial_getBaud},
